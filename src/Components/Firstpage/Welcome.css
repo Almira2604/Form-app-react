@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(109, 20, 20);
+    color: #fff;
+}
+.form-logo {
+  display: flex;              
+  align-items: center;        
+  justify-content: center;    
+    margin-top: 20px;
+}
+h5{
+justify-content: center;
+display: flex;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+}
+
+.form-logo img{
+     width: 25%;                 
+  border-radius: 20rem; 
+  
+}
+.form-h2{
+      justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.welcome{
+ justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+.form-p1{
+   font-size: 18px;
+    border-radius: 10rem;
+    background-color: #fff;
+    color: #8B0000;
+    padding:  10px 15px;
+    width: 300px;
+}
+.form-p2{
+ justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.countinue-li{
+     justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.countinue-li p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10rem;
+    background-color: #fff;
+    margin-top: 20px;
+    padding:  8px 10px;
+    width: 250px;
+    text-align: center;
+}
+.registration-page{
+    padding: 30px;
+}
+.registration-form p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+}
+.registration-form input{
+    border-radius: 10px;
+    background-color: transparent;
+    color: #e46262;
+    border: 1px solid #fff;
+    padding: 8px 10px;
+}
+.registration-plink{
+    font-size: 20px;
+}
+.register-btn{
+    font-family:  sans-serif;
+   font-size: 20px;
+    font-weight: 600;
+    border-radius: 16px;
+    border: none;
+    background-color: #fff;
+    color: #8B0000;
+    margin-top: 20px;
+    padding:  10px 13px;
+    width: 200x;
+    text-align: center; 
+}
+.login-form{
+    padding: 30px;
+}
+.login-form p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+}
+.login-form input{
+    border-radius: 10px;
+     background-color: transparent;
+    color: #e46262;
+    border: 1px solid #fff;
+    padding: 8px 10px;
+}
+.logp{
+       font-size: 20px;
+}
+.log-btn{
+     font-family:  sans-serif;
+   font-size: 20px;
+    font-weight: 600;
+    border-radius: 16px;
+    border: none;
+    background-color: #fff;
+    color: #8B0000;
+    margin-top: 20px;
+    padding:  10px 13px;
+    width: 100px;
+    text-align: center; 
+}
+.recovery-form{
+    padding: 30px;
+}
+.recovery-form p{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+}
+.recovery-form input{
+     border-radius: 10px;
+     background-color: transparent;
+    color: #e46262;
+    border: 1px solid #fff;
+    padding: 8px 10px;
+}
+.otp-btn{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+    font-weight: 600;
+    border-radius: 16px;
+    border: none;
+    margin: 15px;
+    background-color: #fff;
+    color: #8B0000;
+    padding:  5px 8px;
+    text-align: center; 
+    /* margin-top: 20px; */
+}
+.setpas-btn{
+     font-family:  sans-serif;
+   font-size: 20px;
+    font-weight: 600;
+    border-radius: 16px;
+    border: none;
+    background-color: #fff;
+    color: #8B0000;
+    margin-top: 20px;
+    padding:  10px 13px;
+    width: 150px;
+    text-align: center; 
+}
+.setup-password{
+padding: 30px;
+}
+.setup-form p{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+}
+.setup-form input{
+    border-radius: 10px;
+     background-color: transparent;
+    color: #e46262;
+    border: 1px solid #fff;
+    padding: 8px 10px;
+}
+.set-btn{
+font-family:  sans-serif;
+   font-size: 20px;
+    font-weight: 600;
+    border-radius: 16px;
+    border: none;
+    background-color: #fff;
+    color: #8B0000;
+    margin-top: 20px;
+    padding:  10px 13px;
+    width: 150px;
+    text-align: center; 
+}
+
+
+
+@media(max-width:767px)  {
+    .container{
+   margin-top: 180px;
+    }
+    .form-logo img{
+        width: 50%;
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width:1023px){
+   
+}
